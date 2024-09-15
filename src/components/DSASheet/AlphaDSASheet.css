@@ -1,0 +1,28 @@
+.alpha-Dsa-heading {
+  margin-top: 8px;
+  font-size: 2rem;
+  letter-spacing: 0rem;
+  line-height: 1.55;
+  text-transform: none;
+  font-weight: 700;
+  margin-left: 36px;
+}
+
+.nav-icon {
+  height: auto;
+  width: 106px;
+  padding-left: 20px;
+}
+
+.nav-border {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.nav-link {
+  &.active {
+    color: #ffa511;
+  }
+
+  color: black;
+  font-weight: semibold;
+}

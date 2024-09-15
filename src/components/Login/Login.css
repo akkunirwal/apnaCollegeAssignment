@@ -1,0 +1,19 @@
+.gradient-custom {
+  background: linear-gradient(to bottom, rgb(212, 213, 216), rgb(255, 165, 17));
+}
+
+.imgPosition {
+  width: 152px;
+  height: auto;
+}
+
+.blurred-card {
+  border-radius: 2rem;
+  border-width: 2px;
+  background-color: rgba(255, 255, 255, 0.1); /* Transparent white */
+  backdrop-filter: blur(10px); /* Blur effect for the background */
+  max-width: 100%;
+  width: 100%;
+  margin: 0 auto;
+  padding: 1rem;
+}

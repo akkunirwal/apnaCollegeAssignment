@@ -1,0 +1,22 @@
+.text-transition {
+  font-family: monospace;
+  white-space: nowrap;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.blinking-cursor {
+  color: #ffa511; /* Cursor color */
+  animation: blink 0.8s infinite;
+}
+
+@keyframes blink {
+  0%,
+  50% {
+    opacity: 1;
+  }
+  50.01%,
+  100% {
+    opacity: 0;
+  }
+}
